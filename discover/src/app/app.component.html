@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.
+<div *ngFor="let client of clients">
+  <my-client [data]="client" (memberChangeEvent) = "messageFromChild(client)">
+
+  </my-client>
+  
+</div>
+<p>{{message}}</p>-->
+
+<nav>
+  <a routerLink="/">Accueil</a>
+  <a routerLink="clients">Liste des clients</a>
+</nav>
+<router-outlet></router-outlet>
+

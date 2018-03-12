@@ -1,0 +1,7 @@
+<div *ngFor="let client of clients">
+  <my-client [data]="client" (memberChangeEvent) = "messageFromChild(client)">
+
+  </my-client>
+  
+</div>
+<p>{{message}}</p>
